@@ -2,8 +2,8 @@ import React from 'react'
 
 function Header() {
     return (
-        <div>
-            <h1>Im in the mainframe</h1>
+        <div className="page-header">
+            <h1>Nate Stephens</h1>
         </div>
     )
 }

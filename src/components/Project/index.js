@@ -3,7 +3,8 @@ import React from 'react';
 function Project() {
     return(
         <div>
-            Project Section
+            <a href="https://placeholder.com">Project 1</a>
+            <img src="https://via.placeholder.com/150"></img>
         </div>
     )
 }
