@@ -1,4 +1,10 @@
 .nav-link {
-    padding: 200px;
+    padding: 20px;
     text-decoration: none;
 }
+
+.about-image {
+    max-width: 200px;
+    height: auto;
+}
+
