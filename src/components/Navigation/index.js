@@ -1,21 +1,18 @@
 import React from 'react';
 import '../../App.css';
+import { Link } from 'react-router-dom';
 
 
 function Navigation() {
     return (
-        // regular bootstrap nav
         <div className="navbar-nav">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <a className="nav-item nav-link" href="#">Home</a>
-                <a className="nav-item nav-link" href="#">Contact</a>
-                <a className="nav-item nav-link" href="#">Project 1 <span className="sr-only">(current)</span></a>
-                <a className="nav-item nav-link" href="#">Project 2</a>
-                <a className="nav-item nav-link" href="#">Project 3</a>
-                <a className="nav-item nav-link" href="#">Project 4</a>
+                <Link className="nav-item nav-link" to="/">About</Link>
+                <Link className="nav-item nav-link" to="/contact">Contact</Link>
+                <Link className="nav-item nav-link" to="/portfolio">Portfolio</Link>
+                <Link className="nav-item nav-link" to="/resume">Resume</Link>
             </nav>
-        </div>
-
+        </div >
     )
 }
 
