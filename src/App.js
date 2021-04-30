@@ -1,18 +1,20 @@
+import About from './components/About';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Navigation from './components/Navigation';
+import Contact from './components/Contact';
 import Project from './components/Project';
 
 function App() {
   return (
     <body>
       <header>
-        <Navigation />
         <Header/>
       </header>
 
       <main>
         <Project />
+        <About />
+        <Contact />
       </main>
 
       <footer>
