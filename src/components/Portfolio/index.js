@@ -8,7 +8,7 @@ function Portfolio() {
     const [projectsList, setSelectedProject] = useState(projects);
 
     return (
-        <div>
+        <div className="col-sm p-3 text-center">
             {projectsList.map((project) => {
                 return <Project
                     name={project.name}

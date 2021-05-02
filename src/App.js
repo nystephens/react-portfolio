@@ -17,48 +17,28 @@ import photos from "./assets/images/placeholder-350x150.png";
 import Portfolio from './components/Portfolio';
 
 function App() {
-    return (
+  return (
+    <div className="container">
       <Router>
-        <div>
-        <Header />
-          {/* A <Switch> looks through its children <Route>s and
+        <div className="container">
+          <div className="row">
+            <Header />
+          </div>
+          <div className="row">
+            {/* A <Switch> looks through its children <Route>s and
               renders the first one that matches the current URL. */}
-            <Route path="/" component={About}/>
-            <Route path="/contact" component={Contact}/>
-            <Route path="/portfolio" component={Portfolio}/>
-            <Route path="/resume" component={Resume}/>
-        <Footer />
+            <Route path="/contact" component={Contact} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/resume" component={Resume} />
+            <Route path="/" component={About} />
+          </div>
+          <div className="row">
+            <Footer />
+          </div>
         </div>
       </Router>
-    );
-
-  
-
-  // return (
-  //   <section>
-  //     <header>
-  //       <Header/>
-  //     </header>
-
-  //     <main>
-  //     {projectsList.map((project) => {
-  //       return <Project
-  //       name = {project.name}
-  //       key ={project.name}
-  //       photo={project.photo}
-  //       description={project.description}
-  //       />
-  //     })}
-  //       <About />
-  //       <Resume />
-  //       <Contact />
-  //     </main>
-
-  //     <footer>
-  //       <Footer />
-  //     </footer>
-  //   </section>
-  // );
+    </div>
+  );
 }
 
 export default App;
