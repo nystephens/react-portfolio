@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import {
   HashRouter as Router,
-  Switch,
   Route
 } from "react-router-dom";
 
@@ -10,10 +9,7 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Contact from './components/Contact';
-import Project from './components/Project';
 import Resume from './components/Resume';
-import projects from "./projects.json";
-import photos from "./assets/images/placeholder-350x150.png";
 import Portfolio from './components/Portfolio';
 
 function App() {

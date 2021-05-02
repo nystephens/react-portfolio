@@ -1,26 +1,26 @@
 [
     {
-        "name": "Project 1",
+        "name": "Happy Tails",
         "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga",
-        "url": "project-1.github.com",
+        "url": "https://happy-happy-tails.herokuapp.com/",
         "photo": "./assets/images/placeholder-350x150.png"
     },
     {
-        "name": "Project 2",
+        "name": "Surf Forecast",
         "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga",
-        "url": "project-2.github.com",
+        "url": "https://shellienguyen.github.io/surf-forecast/",
         "photo": "../assets/images/placeholder-350x150.png"
     },
     {
-        "name": "Project 3",
+        "name": "Weather Dashboard",
         "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga",
-        "url": "project-2.github.com",
+        "url": "https://nystephens.github.io/weather-dashboard/",
         "photo": "../assets/images/placeholder-350x150.png"
     },
     {
-        "name": "Project 4",
+        "name": "MVC Tech",
         "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga",
-        "url": "project-3.github.com",
+        "url": "https://powerful-wave-29911.herokuapp.com/",
         "photo": "../assets/images/placeholder-350x150.png"
     }
 ]
