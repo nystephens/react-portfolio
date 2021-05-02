@@ -16,9 +16,17 @@
     color: black;
 }
 
+.contact-cont {
+    align-items: center;
+}
+
 .about-image {
     max-width: 200px;
     height: auto;
+}
+
+.list-el {
+    list-style-type: none;
 }
 
 

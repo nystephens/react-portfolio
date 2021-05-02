@@ -43,28 +43,39 @@ function ContactForm() {
     // }
 
     return (
-
-        <section>
-            <h1>Contact Me</h1>
-            <form id="contact-form">
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+        <section className="contact-cont border bg-light">
+            <div className="row">
+                <div className="col-sm">
+                    <h1 className="p-3">Contact Me : </h1>
                 </div>
-                <div>
-                    <label htmlFor="email">Email:</label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+            </div>
+            <form className="row" id="contact-form">
+                <div className="mb-3 p-2">
+                    <div className="col-sm p-2">
+                        <label className="form-label p-4 align-top" htmlFor="name">Name:</label>
+                        <input className="" type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                    </div>
                 </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+                <div className="mb-3 p-2">
+                    <div className="col-sm p-2">
+                        <label className="form-label p-4 align-top" htmlFor="email">Email:</label>
+                        <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                    </div>
+                </div>
+                <div className="mb-3 p-2">
+                    <div className="col-sm p-2">
+                        <label className="form-label p-4 align-top" htmlFor="message">Message:</label>
+                        <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+                    </div>
                 </div>
                 {errorMessage && (
                     <div>
                         <p className='error-text'>{errorMessage}</p>
                     </div>
                 )}
-                <button type="submit">Submit</button>
+                <div className="mb-3 col-sm p-3 text-center">
+                    <button className="btn btn-secondary" type="submit">Submit</button>
+                </div>
             </form>
         </section>
     );
