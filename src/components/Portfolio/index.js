@@ -15,6 +15,7 @@ function Portfolio() {
                     key={project.name}
                     photo={photo}
                     description={project.description}
+                    url={project.url}
                 />
             })}
         </div>

@@ -5,14 +5,7 @@ function Project(props) {
     return (
         <div className="p-3">
             <div className="col-sm p-3 text-center">
-                <Link to={ props.url }>{props.name}</Link>
-
-                {/* <Route path='/some-path' component={() => {
-                    window.location.href = 'link_to_redirect_to';
-                    return null;
-                }} /> */}
-
-                {/* <a href={props.url} target="_blank" rel="noreferrer">{props.name}</a> */}
+                <a href={props.url} target="_blank" rel="noreferrer">{props.name}</a>
             </div>
             <div className="col-sm p-3 text-center">
                 <img src={props.photo} alt="project-pic"></img>
