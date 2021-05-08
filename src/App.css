@@ -20,8 +20,13 @@
     align-items: center;
 }
 
+.project-image {
+    max-width: 500px;
+    height: auto;
+}
+
 .about-image {
-    max-width: 200px;
+    max-width: 400px;
     height: auto;
 }
 

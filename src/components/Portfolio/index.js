@@ -1,11 +1,10 @@
 import React, { useState }from 'react';
 import Project from "../Project";
-import projects from "../../projects.json";
-import photo from "../../assets/images/placeholder-350x150.png"
+import projectData from "../../projectData.json";
 
 function Portfolio() {
 
-    const [projectsList, setSelectedProject] = useState(projects);
+    const [projectsList, setSelectedProject] = useState(projectData);
 
     return (
         <div className="col-sm p-3 text-center border bg-light">
@@ -13,9 +12,10 @@ function Portfolio() {
                 return <Project
                     name={project.name}
                     key={project.name}
-                    photo={photo}
+                    photo={project.photo}
                     description={project.description}
                     url={project.url}
+                    github={project.github}
                 />
             })}
         </div>

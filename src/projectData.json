@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Happy Tails",
+        "description": "Happy Tails is a task tracking site that was created using the Model, View, Controller paradigm.  It tracks the daily activity of sheter dogs to make sure all pups get both a walk and potty break at the appropriate times.  This site is currently hosted on Heroku and can also be run locally using the files in its GitHub repository. To learn how to run this server locally please visit the GitHub repo and read the Installation and Usage sections in the README.md.",
+        "url": "https://happy-happy-tails.herokuapp.com/",
+        "photo": "/images/happy-tails-dashboard.png",
+        "github": "https://github.com/nystephens/happy-tails"
+    },
+    {
+        "name": "Surf Forecast",
+        "description": "This app finds current surf conditions for beaches along the OC/LA coastline.  By selecting one of our 7 tracked beach locations a user will recieve a simplified layout of relevant surf and weather conditions for their selected beach.  A gif is also displayed in relation to the surf conditions to add to a fun experience and stylish user interface.",
+        "url": "https://shellienguyen.github.io/surf-forecast/",
+        "photo": "/images/surf-forecast2.png",
+        "github": "https://github.com/shellienguyen/surf-forecast"
+    },
+    {
+        "name": "Weather Dashboard",
+        "description": "A web app that displays up to date weather statistics and predictions. The user is able to type a city name into the search bar and when their search query submitted, the users input is used as a search term to fetch data from the Open Weather API. Data for that corresponding city is then fetched and populated onto the page in a readable graphic dashboard.",
+        "url": "https://nystephens.github.io/weather-dashboard/",
+        "photo": "/images/weather-dashboard.png",
+        "github": "https://github.com/nystephens/weather-dashboard"
+
+    },
+    {
+        "name": "MVC Tech Blog",
+        "description": "This is a basic CMS-style blog site that was created using the Model, View, Controller paradigm. This site is currently hosted on Heroku and can also be run locally using the files located in its GitHub repository. To learn how to run this server locally please visit the GitHub repo and read the Installation and Usage sections in the README.md. This application was created using Node.js, express for the server, and sequelize to connect to a mysql database entitled \"tech_blog_db\". All user, post, and comment data is stored in tech_blog_db. The live app is currently deployed on Heroku, using the JAWSDB add on to store data. All passwords have been encrypted using the bcrypt Node.js package. The HTML views templates are generated using Handlebars.js.",
+        "url": "https://powerful-wave-29911.herokuapp.com/",
+        "photo": "/images/mvc-tech-blog.png",
+        "github": "https://github.com/nystephens/mvc-tech-blog"
+    }
+]

@@ -11,15 +11,9 @@ function Resume() {
             </div>
             <div className="col-sm p-2 text-center">
                 <h3>Proficiencies :</h3>
-                <ul className="proficiencies">
-                    <li className="list-el p-1">Javascript</li>
-                    <li className="list-el p-1">HTML</li>
-                    <li className="list-el p-1">CSS</li>
-                    <li className="list-el p-1">Git</li>
-                    <li className="list-el p-1">SQL</li>
-                    <li className="list-el p-1">NoSQL</li>
-                    <li className="list-el p-1">React</li>
-                </ul>
+                <div className="proficiencies">
+                    <p>HTML, CSS, Javascript, Git, Node.js, REACT, Data management (SQL, mySQL, NoSQL, MongoDB, GraphQL), Handlebars, RESTful APIs</p>
+                </div>
             </div>
         </div>
     )
