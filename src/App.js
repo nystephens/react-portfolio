@@ -21,8 +21,6 @@ function App() {
             <Header />
           </div>
           <div className="row">
-            {/* A <Switch> looks through its children <Route>s and
-              renders the first one that matches the current URL. */}
             <Route path="/contact" component={Contact} />
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/resume" component={Resume} />
