@@ -1,2 +1,2 @@
 # react-portfolio
-A portfolio page created using React
+A dynamic portfolio page created using React.
