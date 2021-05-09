@@ -12,6 +12,10 @@
 ## Description
 This is a portfolio site created using React JSX and Bootstrap CSS. It contains a header with a nav component that has links to "About,  Contact, Portfolio, and Resume."  Each component is conditionally rendered by React so that the app is both fast and dynamic. About section contains a photo of me as well a short blurb about my interests and experience.  The Contact section includes 3 text inputs for Name, Email and Message. The Portfolio section includes a short list of featured applications to show to prospecting employers or clients.  The Resume section includes a short list of web dev proficiencies as well as a Google Drive link to a downloadable resume (resume is not up to date, but will be edited later to reflect coding experience).  The styling is currently a basic Bootstrap CSS framework, but after I complete the Coding Bootcamp I will dedicate myself to polishing it up to have an impressive and interactive user interface.
 
+Here are some screenshots of the deployed application:
+
+
+
 ## Installation
 1.  Navigate to the GitHub repository ( https://github.com/nystephens/react-portfolio ) in your web browser and click the green dropdown menu that says “Code”.  Copy the SSH key to your clipboard and then open your terminal.  
 
