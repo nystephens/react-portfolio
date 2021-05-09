@@ -10,7 +10,7 @@
         "name": "Surf Forecast",
         "description": "This app finds current surf conditions for beaches along the OC/LA coastline.  By selecting one of our 7 tracked beach locations a user will recieve a simplified layout of relevant surf and weather conditions for their selected beach.  A gif is also displayed in relation to the surf conditions to add to a fun experience and stylish user interface.",
         "url": "https://shellienguyen.github.io/surf-forecast/",
-        "photo": ".http://nystephens.github.io/react-portfolio/images/surf-forecast2.png",
+        "photo": "http://nystephens.github.io/react-portfolio/images/surf-forecast2.png",
         "github": "https://github.com/shellienguyen/surf-forecast"
     },
     {
