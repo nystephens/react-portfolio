@@ -1,5 +1,12 @@
 [
     {
+        "name": "Happy Tails v2.0",
+        "description": "This is a basic CMS-style blog site that was created using the Model, View, Controller paradigm. This site is currently hosted on Heroku and can also be run locally using the files located in its GitHub repository. To learn how to run this server locally please visit the GitHub repo and read the Installation and Usage sections in the README.md. This application was created using Node.js, express for the server, and sequelize to connect to a mysql database entitled \"tech_blog_db\". All user, post, and comment data is stored in tech_blog_db. The live app is currently deployed on Heroku, using the JAWSDB add on to store data. All passwords have been encrypted using the bcrypt Node.js package. The HTML views templates are generated using Handlebars.js.",
+        "url": "https://powerful-wave-29911.herokuapp.com/",
+        "photo": "http://nystephens.github.io/react-portfolio/images/happy-tails-v2.png",
+        "github": "https://github.com/nystephens/mvc-tech-blog"
+    },
+    {
         "name": "Happy Tails",
         "description": "Happy Tails is a task tracking site that was created using the Model, View, Controller paradigm.  It tracks the daily activity of sheter dogs to make sure all pups get both a walk and potty break at the appropriate times.  This site is currently hosted on Heroku and can also be run locally using the files in its GitHub repository. To learn how to run this server locally please visit the GitHub repo and read the Installation and Usage sections in the README.md.",
         "url": "https://happy-happy-tails.herokuapp.com/",
