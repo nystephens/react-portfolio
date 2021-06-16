@@ -4,7 +4,7 @@ import '../../App.css';
 
 function About() {
     return (
-        <section className="my-5 text-center border p-3 section-bkg">
+        <section className="my-5 text-center border-4 p-3 section-bkg">
             <div className="col-sm p-3">
                 <h1 id='about'>About Me</h1>
             </div>
