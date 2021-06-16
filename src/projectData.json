@@ -1,10 +1,10 @@
 [
     {
         "name": "Happy Tails v2.0",
-        "description": "This is a basic CMS-style blog site that was created using the Model, View, Controller paradigm. This site is currently hosted on Heroku and can also be run locally using the files located in its GitHub repository. To learn how to run this server locally please visit the GitHub repo and read the Installation and Usage sections in the README.md. This application was created using Node.js, express for the server, and sequelize to connect to a mysql database entitled \"tech_blog_db\". All user, post, and comment data is stored in tech_blog_db. The live app is currently deployed on Heroku, using the JAWSDB add on to store data. All passwords have been encrypted using the bcrypt Node.js package. The HTML views templates are generated using Handlebars.js.",
-        "url": "https://powerful-wave-29911.herokuapp.com/",
+        "description": "Happy Tails 2.0 is a task tracking site for animal shelters that was created using React and Apollo Provider.  The version 2.0 includes both new added features and higher performance compared to the original Happy Tails.  Some added features include: an admin user model which has additional actions, a donate page, ability for admin to add dogs, admin can activate or inactivate a dog or user profile. This site is currently hosted on Heroku and can also be run locally using the files in its GitHub repository. To learn how to run this server locally please visit the GitHub repo and read the Installation and Usage sections in the README.md.",
+        "url": "https://happytails-v2.herokuapp.com/",
         "photo": "http://nystephens.github.io/react-portfolio/images/happy-tails-v2.png",
-        "github": "https://github.com/nystephens/mvc-tech-blog"
+        "github": "https://github.com/nystephens/happytails-v2"
     },
     {
         "name": "Happy Tails",
