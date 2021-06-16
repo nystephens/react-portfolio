@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 
 function Navigation() {
     return (
-        <div className="col-sm">
+        <section className="col-sm section-bkg">
             <div className="navbar-nav">
-                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <nav className="navbar navbar-expand-lg navbar-light">
                     <div className="col-sm text-center">
                         <Link className="nav-item nav-link" to="/">About</Link>
                     </div>
@@ -22,7 +22,7 @@ function Navigation() {
                     </div>
                 </nav>
             </div >
-        </div>
+        </section>
     )
 }
 

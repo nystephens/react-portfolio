@@ -7,7 +7,7 @@ function Portfolio() {
     const [projectsList, setSelectedProject] = useState(projectData);
 
     return (
-        <div className="col-sm p-3 text-center border bg-light">
+        <section className="col-sm p-3 text-center border section-bkg">
             {projectsList.map((project) => {
                 return <Project
                     name={project.name}
@@ -18,7 +18,7 @@ function Portfolio() {
                     github={project.github}
                 />
             })}
-        </div>
+        </section>
     )
 }
 

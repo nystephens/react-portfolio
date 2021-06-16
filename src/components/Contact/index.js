@@ -43,7 +43,7 @@ function ContactForm() {
     // }
 
     return (
-        <section className="contact-cont border bg-light">
+        <section className="contact-cont border section-bkg">
             <div className="row">
                 <div className="col-sm">
                     <h1 className="p-3">Contact Me : </h1>
