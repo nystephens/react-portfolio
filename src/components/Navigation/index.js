@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Navigation() {
     return (
-        <section className="col-sm border-3 section-bkg">
+        <section className="rounded-border col-sm border-3 section-bkg">
             <div className="navbar-nav">
                 <nav className="navbar navbar-expand-lg navbar-light">
                     <div className="col-sm text-center">

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Resume() {
     return (
-        <div className="p-3 border-4 section-bkg">
+        <div className="p-3 rounded-border section-bkg">
             <div className="col-sm p-2 text-center">
                 <h2>Click to view and download resume:</h2>
             </div>
