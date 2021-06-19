@@ -6,6 +6,16 @@
     --raisin-black: hsla(210, 3%, 15%, 1);
 
     /* new color pallet */
+    --oxford-blue: #00193aff;
+    --prussian-blue: #002b53ff;
+    --indigo-dye: #023f73ff;
+    --yale-blue: #034780ff;
+    --up-maroon: #7a0213ff;
+    --ruby-red: #a10220ff;
+    --upsdell-red: #bf0a26ff;
+    --fire-engine-red: #cd0c2bff;
+    --eerie-black: #131313ff;
+    --eerie-black-2: #262626ff;
 }
 
 body {
@@ -32,6 +42,15 @@ a {
 
 .nav-link {
     padding: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-link:hover {
+    font-family: Tahoma;
+    font-weight: bolder;
+    font-size: large;
     text-decoration: none;
     color: black;
 }

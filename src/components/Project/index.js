@@ -13,7 +13,7 @@ function Project(props) {
                 <p className="project-desc">{props.description}</p>
             </div>
             <div className="col-sm p-3 text-center">
-                <a href={props.github} target="_blank" rel="noreferrer">GitHub Repo</a>
+                <a href={props.github} className="resume-link btn btn-outline-dark btn-lg" target="_blank" rel="noreferrer">GitHub Repo</a>
             </div>
         </div>
     )
