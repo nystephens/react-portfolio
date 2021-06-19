@@ -12,7 +12,24 @@ function Resume() {
             <div className="col-sm p-2 text-center">
                 <h3>Proficiencies :</h3>
                 <div className="proficiencies">
-                    <p>HTML, CSS, Javascript, Git, Node.js, REACT, SQL, mySQL, NoSQL, MongoDB, GraphQL, Handlebars, RESTful APIs, jQuery</p>
+                    <ul>
+                        <li className="list-el">HTML</li>
+                        <li className="list-el">CSS</li>
+                        <li className="list-el">Javascript</li>
+                        <li className="list-el">Git</li>
+                        <li className="list-el">Node.js</li>
+                        <li className="list-el">Express</li>
+                        <li className="list-el">REACT</li>
+                        <li className="list-el">SQL</li>
+                        <li className="list-el">mySQL</li>
+                        <li className="list-el">NoSQL</li>
+                        <li className="list-el">MongoDB</li>
+                        <li className="list-el">GraphQL</li>
+                        <li className="list-el">Handlebars</li>
+                        <li className="list-el">RESTful APIs</li>
+                        <li className="list-el">jQuery</li>
+                    </ul>
+                    {/* <p>HTML, CSS, Javascript, Git, Node.js, REACT, SQL, mySQL, NoSQL, MongoDB, GraphQL, Handlebars, RESTful APIs, jQuery</p> */}
                 </div>
             </div>
         </div>
