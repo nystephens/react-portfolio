@@ -17,6 +17,14 @@ This is a portfolio site created using React JSX and Bootstrap CSS. It contains 
 
 Here are some screenshots of the deployed application:
 
+![Nav](public\images\nav-screenshot.png)
+![About](public\images\about-screenshot.png)
+![Project](public\images\project-screenshot.png)
+![Resume](public\images\resume-screenshot.png)
+![Contact](public\images\contact-sceenshot.png)
+
+
+
 
 
 ## Installation

@@ -47,9 +47,21 @@ function ContactForm() {
             <div className="row">
                 <div className="col-sm">
                     <h1 className="p-3">Contact Me : </h1>
+                    <ul>
+                        <li className="contact-link">
+                            Phone: <a href="tel:7146154168">(714) 615 4168</a>
+                        </li>
+                        <li className="contact-link">
+                            Email: <a href="mailto:nathan.yukio.stephens@gmail.com">nathan.yukio.stephens@gmail.com</a>
+                        </li>
+                        <li className="contact-link">
+                            LinkedIn: <a href="https://www.linkedin.com/in/nathan-yukio-stephens/">nathan-yukio-stephens</a> 
+                        </li>
+                    </ul>
+                    <p>* Phone communication is preferred.</p>
                 </div>
             </div>
-            <form className="row" id="contact-form">
+            {/* <form className="row" id="contact-form">
                 <div className="mb-3 p-2">
                     <div className="col-sm p-2">
                         <label className="form-label p-4 align-top" htmlFor="name">Name:</label>
@@ -76,7 +88,7 @@ function ContactForm() {
                 <div className="mb-3 col-sm p-3 text-center">
                     <button className="btn btn-secondary" type="submit">Submit</button>
                 </div>
-            </form>
+            </form> */}
         </section>
     );
 }

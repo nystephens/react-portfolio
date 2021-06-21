@@ -25,7 +25,7 @@ body {
 a {
     text-decoration: none;
     padding: 7px 5px 7px 5px;
-    color: white;
+    color: var(--isabelline);
 }
 
 p {
@@ -51,6 +51,10 @@ label {
 ul li {
     color: var(--isabelline);
 }
+
+/* .container {
+    justify-content: center;
+} */
 
 .btn {
     color: var(--isabelline);
@@ -127,6 +131,11 @@ ul li {
 
 .list-el {
     list-style-type: none;
+}
+
+.contact-link:hover {
+    color: var(--isabelline);
+    font-style: bold;
 }
 
 
