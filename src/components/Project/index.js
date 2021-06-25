@@ -6,7 +6,7 @@ function Project(props) {
             <div className="col-sm p-3 text-center">
                 <a className="project-link project-photo" href={props.url} target="_blank" rel="noreferrer">{props.name}</a>
             </div>
-            <div className="col-sm p-3 text-center">
+            <div className="col-sm p-3 justify-content text-center">
                 <img className="project-image image-border" src={props.photo} alt="project-pic"></img>
             </div>
             <div className="col-sm p-3 text-center">

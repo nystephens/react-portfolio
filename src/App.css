@@ -72,7 +72,6 @@ ul li {
 .nav-link {
     padding: 20px;
     text-decoration: none;
-    /* color: black; */
 }
 
 .nav-link:hover {
@@ -133,3 +132,46 @@ ul li {
     color: var(--isabelline);
     font-style: bold;
 }
+
+@media only screen and (max-width: 769px) {
+    .project-image {
+        max-width: 250px;
+        height: auto;
+    }
+
+    .image-border {
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 25px;
+        border-color: var(--eerie-black);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .project-image {
+        max-width: 200px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .project-image {
+        max-width: 150px;
+        height: auto;
+    }
+
+    .image-border {
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 2px;
+        border-color: var(--eerie-black);
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    .project-image {
+        max-width: 100px;
+        height: auto;
+    }
+}
+
