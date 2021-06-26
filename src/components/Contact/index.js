@@ -55,7 +55,7 @@ function ContactForm() {
                             Email: <a href="mailto:nathan.yukio.stephens@gmail.com">nathan.yukio.stephens@gmail.com</a>
                         </li>
                         <li className="contact-link">
-                            LinkedIn: <a href="https://www.linkedin.com/in/nathan-yukio-stephens/">nathan-yukio-stephens</a> 
+                            LinkedIn: <a href="https://www.linkedin.com/in/nathan-yukio-stephens/" target="_blank">nathan-yukio-stephens</a> 
                         </li>
                     </ul>
                     <p>* Phone communication is preferred.</p>
