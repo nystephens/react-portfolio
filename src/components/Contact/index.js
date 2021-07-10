@@ -57,8 +57,11 @@ function ContactForm() {
                         <li className="contact-link">
                             LinkedIn: <a href="https://www.linkedin.com/in/nathan-yukio-stephens/" target="_blank">nathan-yukio-stephens</a> 
                         </li>
+                        <li className="contact-link">
+                            GitHub: <a href="https://github.com/nystephens/" target="_blank">nystephens</a> 
+                        </li>
                     </ul>
-                    <p>* Phone communication is preferred.</p>
+                    <p>* Phone or Email communication is preferred.</p>
                 </div>
             </div>
             {/* <form className="row" id="contact-form">

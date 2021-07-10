@@ -103,6 +103,13 @@ ul li {
     color:var(--ruby-red);
 }
 
+.contact-link:hover {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--ruby-red);
+}
+
 .image-border {
     border-style: solid;
     border-width: 10px;

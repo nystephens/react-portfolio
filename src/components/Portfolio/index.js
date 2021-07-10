@@ -8,6 +8,9 @@ function Portfolio() {
 
     return (
         <section className="col-sm p-3 text-center rounded-border section-bkg">
+            <div>
+                <h3 className="col-sm p-3 text-center" >Click on the project title to see deployed application</h3>
+            </div>
             {projectsList.map((project) => {
                 return <Project
                     name={project.name}
