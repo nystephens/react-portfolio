@@ -136,8 +136,14 @@ ul li {
 }
 
 .contact-link:hover {
-    color: var(--isabelline);
+    color: var(--ruby-red) !important;
+    font-size: 20px;
     font-style: bold;
+}
+
+.github-link:hover {
+    color: var(--eerie-black-2);
+    background-color: var(--isabelline);
 }
 
 @media only screen and (max-width: 769px) {

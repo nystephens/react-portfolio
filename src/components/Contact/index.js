@@ -47,18 +47,19 @@ function ContactForm() {
             <div className="row">
                 <div className="col-sm">
                     <h1 className="p-3">Contact Me : </h1>
+                    <h4 className="p-3">Click on my contact info below to get in touch!</h4>
                     <ul>
-                        <li className="contact-link">
-                            Phone: <a href="tel:7146154168">(714) 615 4168</a>
+                        <li>
+                            Phone: <a className="contact-link" href="tel:7146154168">(714) 615 4168</a>
                         </li>
-                        <li className="contact-link">
-                            Email: <a href="mailto:nathan.yukio.stephens@gmail.com">nathan.yukio.stephens@gmail.com</a>
+                        <li>
+                            Email: <a className="contact-link" href="mailto:nathan.yukio.stephens@gmail.com">nathan.yukio.stephens@gmail.com</a>
                         </li>
-                        <li className="contact-link">
-                            LinkedIn: <a href="https://www.linkedin.com/in/nathan-yukio-stephens/" target="_blank">nathan-yukio-stephens</a> 
+                        <li>
+                            LinkedIn: <a className="contact-link" href="https://www.linkedin.com/in/nathan-yukio-stephens/" target="_blank">nathan-yukio-stephens</a> 
                         </li>
-                        <li className="contact-link">
-                            GitHub: <a href="https://github.com/nystephens/" target="_blank">nystephens</a> 
+                        <li>
+                            GitHub: <a className="contact-link" href="https://github.com/nystephens/" target="_blank">nystephens</a> 
                         </li>
                     </ul>
                     <p>* Phone or Email communication is preferred.</p>
