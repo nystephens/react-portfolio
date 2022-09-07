@@ -7,11 +7,18 @@
         "github": "https://github.com/nystephens/happytails-v2"
     },
     {
-        "name": "Happy Tails",
-        "description": "Happy Tails is a task tracking site that was created using the Model, View, Controller paradigm.  It tracks the daily activity of sheter dogs to make sure all pups get both a walk and potty break at the appropriate times.  This site is currently hosted on Heroku and can also be run locally using the files in its GitHub repository. To learn how to run this server locally please visit the GitHub repo and read the Installation and Usage sections in the README.md.",
-        "url": "https://happy-happy-tails.herokuapp.com/",
-        "photo": "http://nystephens.github.io/react-portfolio/images/happy-tails-dashboard.png",
-        "github": "https://github.com/nystephens/happy-tails"
+        "name": "Called to Greatness",
+        "description": "A WordPress site for a family owned insurance agency.  Complete with user access tiers and restricted content. ",
+        "url": "https://ctg-php.com/",
+        "photo": "http://nystephens.github.io/react-portfolio/images/ctg-logo.png",
+        "github": "https://github.com/nystephens/"
+    },
+    {
+        "name": "Cube Stream",
+        "description": "Did frontend work for a startup streaming site.  My role was to bring the design for the upload page and user sidebar to match the FIGMA design.",
+        "url": "https://cubestream.com/signin.php?invite=uiQZK5I8J9h21aNSwTpQ&tag=vVlwlb4AME7bQzFSJulMfA%3D%3D&fbclid=IwAR1Vb2bGBNxf97Wk5opfP3_kZKHXhmGj6b5QMCviR1vD6VY83Uq3wf_icF0",
+        "photo": "http://nystephens.github.io/react-portfolio/images/cubestream-banner.jpg",
+        "github": "https://github.com/nystephens/"
     },
     {
         "name": "Surf Forecast",
