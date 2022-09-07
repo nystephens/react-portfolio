@@ -7,7 +7,7 @@ function Resume() {
                 <h2>Click to view and download resume:</h2>
             </div>
             <div className="col-sm p-2 text-center">
-                <a type="button" href="https://docs.google.com/document/d/1GXNNs5Gt3wrD35dOs5ADpSoT9dQ0DLuJtCCkcG6UBYM/edit?usp=sharing" target="__blank" rel="noreferrer" className="resume-link btn btn-outline-dark btn-lg">Download</a>
+                <a type="button" href="https://docs.google.com/document/d/e/2PACX-1vTYPZi38466MtTIhaAQPeLw5sbKyze4d8o3Rx9Qp7g7jsCKYguJ4AUMWJp6lIsRxd15hL3KM1qCVyin/pub" target="__blank" rel="noreferrer" className="resume-link btn btn-outline-dark btn-lg">Download</a>
             </div>
             <div className="col-sm p-2 text-center">
 
