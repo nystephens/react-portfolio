@@ -11,14 +11,14 @@
         "description": "A WordPress site for a family owned insurance agency.  Complete with user access tiers and restricted content. ",
         "url": "https://ctg-php.com/",
         "photo": "http://nystephens.github.io/react-portfolio/images/ctg-logo.png",
-        "github": "https://github.com/nystephens/"
+        "github": "https://gist.github.com/nystephens/293512eb4f605148364e3fcde7eb6ff0"
     },
     {
-        "name": "Cube Stream",
+        "name": "Cubestream",
         "description": "Did frontend work for a startup streaming site.  My role was to bring the design for the upload page and user sidebar to match the FIGMA design.",
         "url": "https://cubestream.com/signin.php?invite=uiQZK5I8J9h21aNSwTpQ&tag=vVlwlb4AME7bQzFSJulMfA%3D%3D&fbclid=IwAR1Vb2bGBNxf97Wk5opfP3_kZKHXhmGj6b5QMCviR1vD6VY83Uq3wf_icF0",
         "photo": "http://nystephens.github.io/react-portfolio/images/cubestream-banner.jpg",
-        "github": "https://github.com/nystephens/"
+        "github": "https://gist.github.com/nystephens/b5c5d6986e18422b18c6943e2a53880a"
     },
     {
         "name": "Surf Forecast",
